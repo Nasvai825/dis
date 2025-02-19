@@ -1,0 +1,177 @@
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    font-family:"Courier New";
+}
+.main{
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+}
+.motiv{
+    font-size: 30px;
+    box-sizing: border-box;
+    transform-style:inherit;
+    width: 100%;
+    padding-top: 170px;
+    text-align: center;
+    color: #000000;
+    background-image: url("https://phonoteka.org/uploads/posts/2021-05/1621006563_8-phonoteka_org-p-fon-dlya-prezentatsii-trenazhernogo-zala-12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Параллакс эффект*/
+    /* фоновая картинка */
+
+    /* высота прокрутки картинки */
+    min-height: 600px;
+
+    /* привязываем фоновую картинку, чтобы она не двигалась */
+    background-attachment: fixed;
+    /* размещаем её по центру */
+    background-position: center;
+    /* выключаем повторения картинки */
+    background-repeat: no-repeat;
+    /* подгоняем масштаб картинки под размер блока, в котором она лежит */
+    background-size: cover;
+
+}
+
+.news{
+    background-color: #a198ff;
+    flex-direction: column;
+    margin: 0;
+}
+.text1{
+    margin-top:50px;
+    font-size: 45px;
+    margin-left: 50px;
+    height: 50px;
+
+}
+.opis{
+    font-size: 25px;
+    margin-top:50px;
+}
+.contacts{
+    background-color: #c3ffff;
+}
+.portfolio{
+    background-color: #ffeaa7;
+}
+.wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+.menu {
+    position: fixed;
+    left: 0;top: 0;
+    z-index: 99;
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    transform: translateX(-100%);
+    background-image: linear-gradient(#ffeaa7, #a29bfe);;
+    font-family:"Courier New";
+    font-size: 20px;
+}
+.menu_active {
+    transform: translateX(0%);
+}
+.menu-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    flex-direction: column;
+
+}
+.menu-list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #000000;
+}
+.menu-btn {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: -45px;
+    top: 10px;
+}
+.content {
+    transition: 0.5s;
+    position: relative;
+    z-index: 0;
+}
+.content_active {
+    transform: translateX(15%);
+}
+
+table{
+    border: 2px solid black;
+}
+td{
+    border: 2px solid black;
+}
+
+
+.updateTable{
+	margin: 0 auto;
+	border: 2px solid black;
+	height: 300px;
+	width: 50%;
+}
+.updateTable1{
+	margin-top: 10px;
+	border: 2px solid green;
+	height: 280px;
+	width: 45%;
+}
+.updateTable2{
+	margin-top: 10px;
+	border: 2px solid red;
+	height: 280px;
+	width: 45%;
+}
+.updateTable input{
+	width: 50%;
+}
+
+.infoTable{
+	margin: 0 auto;
+	margin-top: 50px;
+	min-height: 250px;
+	width: 90%;
+}
+.infoTable1{
+	float: left;
+	width: 25%;
+}
+.infoTable2{
+	float: left;
+	margin-left: 1%;
+	width: 33%;
+}
+.infoTable3{
+	float: right;
+	width: 40%;
+}
+.infoTable4{
+	padding-top: 10px;
+	margin: 0 auto;
+	width: 60%;
+}
+
+.buttonAbonement{
+	background-color: #fde8a9;
+	border-radius: 15px;
+	width: 300px;
+	height: 70px;
+}

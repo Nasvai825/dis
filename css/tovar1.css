@@ -1,0 +1,193 @@
+body{
+    background-image: linear-gradient(turquoise,blueviolet);
+}
+.main{
+    background:white;
+    width:1000px ;
+    height: 1600px;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+.rl1 {
+    width: 180px;
+    float: left;
+    margin:5px;
+}
+.menu{
+    margin-top: 30px;
+    width: 500px;
+    height: 60px;
+    float: right ;
+}
+.menu ul li {
+    font-size: 16px;
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+
+}
+.menu ul li a{
+    color: #000;
+    text-decoration: none;
+    font-family:"Courier New";
+
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid teal;
+}
+.menu ul li button{
+    margin-left: 20px;
+    background: #9d4edd;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-family: "Courier New";
+    box-shadow: 3px 5px 4px slategrey;
+
+
+}
+body{margin: 0;}
+#yt{
+    padding: 45px;
+}
+form {
+    position: relative;
+    width: 250px;
+    height: 0px;
+    margin: 0 auto;
+}
+#d5 {
+    width: 210px;
+    margin-left: 180px;}
+#d5 input, #d5 button {
+    outline: none;
+    background: transparent;
+}
+#d5 input {
+    width:240px;
+    height: 42px;
+    padding-left: 15px;
+    border: 1px solid #fdd83582;
+    border-radius: 15px;
+    box-shadow: 5px 3px 5px #7080901f;
+}
+#d5 button {
+    border: none;
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    cursor: pointer;
+}
+#d5 button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: blueviolet;
+}
+#d5 input:focus {
+    border-color: #fdd835;}
+
+#yr a{
+    color:white;
+    border-bottom: transparent;
+}
+.ax{
+    margin-top: 40px;
+    margin-left:40px;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+}
+.ax2{
+    width: 500px;
+    margin-top: 70px;
+    height: 350px;
+    position: absolute;
+    margin-left: 450px;
+    padding: 20px;
+    font-family: "Courier New";
+}
+*div{
+    display: block;
+    float:left
+}
+.ftr{
+    margin-top: 60px;
+    float:right;
+}
+.ff{
+    font-family:'Courier New';
+    margin:20px;
+    width: 200px;
+}
+.hty{
+    text-align: right;
+    margin:5px;
+    font-family:'Courier New';
+}
+.hty a{
+    color:darkviolet;
+}
+.hty a:hover{
+    border-bottom: 1px solid blueviolet;
+}
+.hty2{
+    text-align: left;
+    margin:5px;
+    font-family:'Courier New';
+    color:blueviolet;
+    font-size: 18px;
+}
+.uyt3{
+    border-top: 1px solid #fdd835;
+    width: 900px;
+    height: 200px;
+
+    margin: 200px auto;
+
+}
+.menu2{
+    margin: 0px;
+    background-color:#9d4eddd1;
+    width: 900px;
+    height: 33px;
+    margin-bottom: 20px;
+    margin-top:500px;
+    border-radius: 5px;
+    margin-left:50px;
+}
+.menu2 ul{
+    list-style-type: none;
+    padding: 0px; margin: 0px;
+    margin-left:20px;
+}
+.menu2 li{
+    float:left;
+    margin-right: 10px
+
+}
+.menu2 a:link, .menu2 a:visited {
+    text-decoration: none;
+    color: White;
+    font: 16px 'Courier New';
+    display: block;
+    line-height: 33px;
+    padding: 0px 5px;
+
+}
+.menu2 a:hover, .menu2 a.active {
+    color: black;
+    background-color: #ffffff96;
+
+}
+.ret{
+    margin: 40px auto;
+ width: 850px;
+    height: 500px;
+    font:16px 'Courier New';
+}

@@ -1,0 +1,194 @@
+body{
+    background-image: linear-gradient(turquoise,blueviolet);
+}
+.main{
+    background:white;
+    width:1000px ;
+    height: 1100px;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+.rl1 {
+    width: 180px;
+    float: left;
+    margin:5px;
+}
+.menu{
+    margin-top: 30px;
+    width: 500px;
+    height: 60px;
+    float: right ;
+}
+.menu ul li {
+    font-size: 16px;
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+
+}
+.menu ul li a{
+    color: #000;
+    text-decoration: none;
+    font-family:"Courier New";
+
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid teal;
+}
+.menu ul li button{
+    margin-left: 20px;
+    background: #9d4edd;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-family: "Courier New";
+    box-shadow: 3px 5px 4px slategrey;
+
+
+}
+body{margin: 0;}
+#yt{
+    padding: 45px;
+}
+ form {
+    position: relative;
+    width: 250px;
+    height: 0px;
+    margin: 0 auto;
+}
+#d5 {
+    width: 210px;
+    margin-left: 180px;}
+#d5 input, #d5 button {
+    outline: none;
+    background: transparent;
+}
+#d5 input {
+    width:250px;
+    height: 42px;
+    padding-left: 15px;
+    border: 1px solid #fdd83582;
+    border-radius: 15px;
+    box-shadow: 5px 3px 5px #7080901f;
+}
+#d5 button {
+    border: none;
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    cursor: pointer;
+}
+#d5 button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: blueviolet;
+}
+#d5 input:focus {
+    border-color: #fdd835;}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    background-color: white;
+}
+
+/* Full-width input fields */
+ input[type=text],  input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+ input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-family: 'Courier New';
+    font-size: 16px;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+#ax form{
+    width: 1000px;
+    margin-top: 20px;
+    font-family: 'Courier New';
+}
+#yr a{
+    color:white;
+    border-bottom: transparent;
+}
+.hty{
+    text-align: right;
+    margin:5px;
+    font-family:'Courier New';
+}
+.hty a{
+    color:darkviolet;
+}
+.hty a:hover{
+    border-bottom: 1px solid blueviolet;
+}
+.hty2{
+    text-align: left;
+    font-family:'Courier New';
+    color:blueviolet;
+    font-size: 18px;
+
+}
+.ff{
+    font-family:'Courier New';
+    margin-top:20px;
+margin-left: 15px;
+    width: 200px;
+}
+.uyt3{
+    border-top: 1px solid #fdd835;
+    width: 900px;
+    height: 200px;
+    margin: 780px auto;
+
+}

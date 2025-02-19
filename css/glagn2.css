@@ -1,0 +1,306 @@
+section {
+    width: 100%;
+    display: flex;
+    font-family:"Courier New";
+}
+
+.main{
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+}
+.motiv{
+    font-size: 40px;
+    box-sizing: border-box;
+    transform-style:inherit;
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    text-align: center;
+    color: #000000;
+    background-image: url("https://burobiz-a.akamaihd.net/uploads/images/137995/large_%D1%84%D0%B8%D1%82%D0%BA%D0%B0%D1%84%D0%B53.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Параллакс эффект*/
+    /* фоновая картинка */
+
+    /* высота прокрутки картинки */
+    min-height: 600px;
+
+    /* привязываем фоновую картинку, чтобы она не двигалась */
+    background-attachment: fixed;
+    /* размещаем её по центру */
+    background-position: center;
+    /* выключаем повторения картинки */
+    background-repeat: no-repeat;
+    /* подгоняем масштаб картинки под размер блока, в котором она лежит */
+    background-size: cover;
+
+}
+.inputAdd{
+    border: none;
+    border-radius: 50px;
+    color: #ADD8E6;
+    width: 80%;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+.connection{
+    height: 30vh;
+    background-color: #a29bfe;
+    flex-direction: column;
+    margin: 0;
+}
+
+.news{
+    background-color: #ffeaa7c2;
+    flex-direction: column;
+    margin: 0;
+    height: 70%;
+
+}
+.text1{
+    margin-top:50px;
+    font-size: 55px;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+.opis{
+    font-size: 40px;
+    margin-top:40px;
+    margin-left: 100px;
+
+}
+.opis2{
+    font-size: 50px;
+    margin-top: 90px;
+    max-width: 80px;
+    height: 80px;
+}
+.opis3{
+    margin-right: 70px;
+    margin-top: 5%;
+    width: 90%;
+    font-size: 35px;
+}
+.cartt{
+    min-height: 600px; /* Минимальная высота */
+    height: auto;
+    background-color: white;
+    margin-top: 10%;
+    gap:15%; 
+    border-radius: 15px;
+    margin-left: 15%;
+   
+
+}
+@media (max-width: 768px) {
+    .cartt {
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+}
+.contact-info{
+    background-color: #a989ffb3;
+        
+}
+.portfolio{
+    background-color: #ffc2a7b8;
+    flex-direction: column;
+    margin: 0;
+    height: 200vh;
+}
+.wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+.menu {
+    position: fixed;
+    left: 0;top: 0;
+    z-index: 99;
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    transform: translateX(-100%);
+    background-image: linear-gradient(#ffeaa7, #a29bfe);;
+    font-family:"Courier New";
+    font-size: 27px;
+}
+.menu_active {
+    transform: translateX(0%);
+}
+.menu-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    flex-direction: column;
+
+}
+.menu-list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #000000;
+}
+.menu-btn {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -55px;
+    top: 20px;
+}
+.content {
+    transition: 0.5s;
+    position: relative;
+    z-index: 0;
+}
+.content_active {
+    transform: translateX(15%);
+}
+
+.bn11 {
+    display: inline-block;
+    padding: 0.5em 1.7em;
+    margin: 0 0.1em 0.1em 0;
+    border: 0.16em solid rgba(255, 255, 255, 0);
+    background-color: rgb(80, 10, 172);
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Courier New", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+    text-align: center;
+    transition: all 0.2s;
+    margin-left: 100px;
+    font-size: 22px;
+}
+
+/* Стили всплывающего окна по-умолчанию */
+.modal {
+    position: fixed; /* фиксированное положение */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5); /* фон */
+    z-index: 1050;
+    opacity: 0; /* по умолчанию модальное окно прозрачно */
+    -webkit-transition: opacity 200ms ease-in;
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in; /* анимация перехода */
+    pointer-events: none; /* элемент невидим для событий мыши */
+    margin: 0;
+    padding: 0;
+}
+/* При отображении модального окно */
+.modal:target {
+    opacity: 1; /* делаем окно видимым */
+    pointer-events: auto; /* элемент видим для событий мыши */
+    overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+}
+/* ширина модального окна и его отступы от экрана */
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 700px;
+        margin: 30px auto; /* отображение окна по центру */
+    }
+}
+/* Стили для блока с контентом окна */
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+@media (min-width: 768px) {
+    .modal-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+        box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    }
+}
+/* Стили заголовка окна */
+.modal-header {
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eceeef;
+}
+.modal-title {
+    font-size: 25px;
+    font-family: "Courier New";
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-weight: 700;
+}
+/* Стили кнопки "х" ("Закрыть")  */
+.close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+}
+/* Стили для закрывающей кнопки в фокусе или наведении */
+.close:focus, .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+}
+/* Стили блока основного содержимого окна */
+.modal-body {
+    font-size: 25px;
+    font-family: "Courier New";
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 15px;
+    overflow: auto;
+}

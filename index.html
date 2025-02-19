@@ -1,0 +1,360 @@
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/glagn2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="img/undraw_working_late_.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css-master/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css-master/styles.css" />
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+
+</head>
+
+<body>
+    <div class ="wrapper">
+        <div class="menu">
+        <a><img src="img/icon.png" alt="" class="menu-btn"></a>
+            <nav class="menu-list">
+                <a href="index.php">Главная</a>
+                <a href="raspp.php">Расписание</a>
+                <a href="price.php">Прайс-лист</a>
+                <a href="AdminAvtoriz.php">Изменение расписания</a>
+            </nav>
+        </div>
+
+        <div class="content">
+
+           <!Параллакс эффект>
+            <section class="main">
+               <div class="motiv">
+                   <h1>Построй тело своей мечты!</h1>
+                   <p style="text-align: center;"> А наш фитнес-клуб <b style="color: #700101">BodyTech</b> вам в этом поможет</p>
+               </div>
+            </section>
+            <!................>
+
+        </div>
+            <section class="news" >
+                
+                    <div class="text1"><b><span style="">~ КЛУБ ДЛЯ ОСОЗНАННОГО ФИТНЕСА ~</span></b></div>
+
+                    
+
+                        <div style="display: flex; width: 80%, auto; margin-top: 2%; height: max-content; margin-bottom: 5%; ">
+
+                            <div >
+                                <img class="opis2" style="margin-left: 35%"  src="https://img.icons8.com/?size=100&id=ay8ye9o6qtqV&format=png&color=000000" alt="">
+                                <div style=" text-align:center;display: block; margin-top: 20px; position: center; font-size: 30px;margin-left: 10px" >2 сауны, хаммам,<br>
+                                    зона гидромассажа, аквабайк</div>
+                            </div>
+                            <div >
+                                <img class="opis2" style="margin-left: 40%" src="https://cdn-icons-png.flaticon.com/512/4110/4110358.png" alt="">
+                                <div  style="display: inline-block;  text-align:center;margin-top: 20px; position: center; font-size: 30px; margin-left: 40px" >Детский клуб<br>
+                                    от 3 до 14 лет</div>
+                            </div>
+                            <div >
+                                <img class="opis2"  style="margin-left: 35%" src="https://cdn-icons-png.flaticon.com/512/3503/3503845.png" alt="">
+                                <div style="display: inline-block; text-align:center; margin-top: 20px;position: center; font-size: 30px; margin-left: 10px" >
+                                    2 зала групповых программ,<br> тренажерный зал, <br>кардио-кинотеатр и<br>
+                                    INBODY тестирование</div>
+                            </div>
+                            <div >
+                                <img class="opis2" style="margin-left: 35%" src="https://cdn-icons-png.flaticon.com/512/2540/2540142.png" alt="">
+                                <div style="display: inline-block;  text-align:center; margin-top: 20px;position: center; font-size: 30px; margin-left: 10px" >
+                                    Тренировки с инновационными <br> датчиками пульса DexBee</div>
+                            </div>
+                        </div>
+                    
+                
+            </section>
+
+            <section class="contacts" style="background-color: #a29bfe">
+                <div style="margin-top: 5%; margin-left: 5%; ">
+                    <span class="text1" style="text-align: center"><b>~ WOW-ФИТНЕС <br>ВЫСОКОГО УРОВНЯ ~</b></span>
+                    <div class="opis3">
+                       <b> Фитнес-пространство для искушённых:</b> <br> <br>
+                        <b style="color: #700101">BodyTech</b> - это более 50 групповых
+                        занятий<br> - от йоги до танцевальных и силовых, тренажёрный зал,
+                        функциональные тренировки, кардио-кинотеатр,
+                        студия сайкла и пилатеса<br>
+                        Не оставит вас равнодушными и зона RELAX: бассейн с морской водой,
+                        хаммам, сауна и гидромассаж. Такая атмосфера позволит не только
+                        добиться результатов, но и получить удовольствие от процесса.
+                    </div>
+                        <style>
+                            * {box-sizing: border-box;}
+                            body {font-family: Verdana, sans-serif;}
+                            .mySlides {display: none;}
+                            img {vertical-align: middle;}
+
+                            /* Slideshow container */
+                            .slideshow-container {
+                                max-width: 120%;
+                                position: relative;
+                                margin: auto;
+                            }
+
+
+                            /* The dots/bullets/indicators */
+                            .dot {
+                                height: 15px;
+                                width: 15px;
+                                margin: 0 2px;
+                                background-color: rgba(0, 0, 0, 0);
+                                border-radius: 50%;
+                                display: flex;
+                                transition: background-color 0.6s ease;
+                            }
+
+                            .active {
+                                background-color: rgba(0, 0, 0, 0);
+                            }
+
+                            /* Fading animation */
+                            .fade {
+                                -webkit-animation-name: fade;
+                                -webkit-animation-duration: 3s;
+                                animation-name: fade;
+                                animation-duration: 3s;
+                            }
+
+                            @-webkit-keyframes fade {
+                                from {opacity: .4}
+                                to {opacity: 1}
+                            }
+
+                            @keyframes fade {
+                                from {opacity: .4}
+                                to {opacity: 1}
+                            }
+
+                            /* On smaller screens, decrease text size */
+                            @media only screen and (max-width: 300px) {
+                                .text {font-size: 11px}
+                            }
+                        </style>
+                        <div style="display: flex; margin-top: 30px;  margin-right: 5%; margin-bottom: 5%; ">
+                            <div class="slideshow-container" style="display: inline">
+
+                                <div class="mySlides fade">
+                                    <img src="https://ogau-irk.ru/upload/iblock/8cd/8cdf78f6de32b0e544b3753fb57b95e3.jpg" style="width:900px;" alt="">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <img src="https://avatars.mds.yandex.net/get-altay/1970665/2a0000016fc9b0a70bc67631ac15a891814c/XXL" style="width:900px;">
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <img src="https://avatars.mds.yandex.net/get-altay/4042551/2a0000017f0eafc68e5bb344465324a1068e/orig" style="width:900px;">
+                                </div>
+
+                            </div>
+
+                            <div style="text-align:center ">
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+
+                            <script>
+                                var slideIndex = 0;
+                                showSlides();
+
+                                function showSlides() {
+                                    var i;
+                                    var slides = document.getElementsByClassName("mySlides");
+                                    var dots = document.getElementsByClassName("dot");
+                                    for (i = 0; i < slides.length; i++) {
+                                        slides[i].style.display = "none";
+                                    }
+                                    slideIndex++;
+                                    if (slideIndex > slides.length) {slideIndex = 1}
+                                    for (i = 0; i < dots.length; i++) {
+                                        dots[i].className = dots[i].className.replace(" active", "");
+                                    }
+                                    slides[slideIndex-1].style.display = "block";
+                                    dots[slideIndex-1].className += " active";
+                                    setTimeout(showSlides, 2000); // Change image every 2 seconds
+                                }
+                            </script>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </section>
+            <section class="portfolio">
+                <div class="text1" style="margin-top: 100px"><b><span> ВЫБИРАЙТЕ ТО, ЧТО ПО ДУШЕ или... ВСЁ СРАЗУ </span></b></div>
+
+
+                <div id="modal-container">
+                    <div class="modal-background">
+                        <div class="modal">
+                            <h2>I'm a Modal</h2>
+                            <p>Hear me roar.</p>
+                            <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none">
+                                <rect x="0" y="0" fill="none" width="226" height="162" rx="3" ry="3"></rect>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="openModal" class="modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title">Заголовок</h3>
+                                <a href="#close" title="Close" class="close">×</a>
+                            </div>
+                            <div class="modal-body">
+                                <ul>
+                                    <li>Содержание</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div>
+                    
+                    <div style="display: flex; flex-wrap: wrap; gap: 20px; height: max-content;">
+                        <div class="cartt">
+                            <img src="https://101hairtips.com/wp-content/uploads/1/4/5/1454c6ab2c324c8575d0e88f64099a2c.jpeg" 
+                                 style="box-shadow: 0px 0px 15px 7px rgba(98,98,98,0.28); height: 300px; width: calc(100% - 40px); margin: 20px; object-fit: cover;">
+                            <p style="font-size: 30px; text-align: center;">Индивидуальные тренеровки</p>
+                            <button class="bn11"><a href="#openModal1" style="text-decoration: none; color: #f1f1f1">Подробнее...</a></button>
+                        </div>
+                        <!-- Другие карточки -->
+                    
+
+                        <div class="cartt">
+                            <img src="https://ogau-irk.ru/upload/iblock/8cd/8cdf78f6de32b0e544b3753fb57b95e3.jpg" 
+                                 style="box-shadow: 0px 0px 15px 7px rgba(98,98,98,0.28); height: 300px; width: calc(100% - 40px); margin: 20px; object-fit: cover;">
+                            <p style="font-size: 30px; text-align: center;">Бассейн</p>
+                            <button class="bn11"><a href="#openModal2" style="text-decoration: none; color: #f1f1f1">Подробнее...</a></button>
+                        </div>
+
+                        <div class="cartt">
+                            <img src="https://static.tildacdn.com/tild3334-6136-4362-b665-626663643232/1.jpg" 
+                                 style="box-shadow: 0px 0px 15px 7px rgba(98,98,98,0.28); height: 300px; width: calc(100% - 40px); margin: 20px; object-fit: cover;">
+                            <p style="font-size: 30px; text-align: center;">Групповые занятия</p>
+                            <button class="bn11"><a href="#openModal3" style="text-decoration: none; color: #f1f1f1">Подробнее...</a></button>
+                        </div>
+
+
+                        <div class="cartt">
+                            <img src="https://na-dache.pro/uploads/posts/2022-02/1644658688_58-na-dache-pro-p-relaks-komnata-foto-63.jpg" 
+                                 style="box-shadow: 0px 0px 15px 7px rgba(98,98,98,0.28); height: 300px; width: calc(100% - 40px); margin: 20px; object-fit: cover;">
+                            <p style="font-size: 30px; text-align: center;">SPA-Комплекс</p>
+                            <button class="bn11"><a href="#openModal4" style="text-decoration: none; color: #f1f1f1">Подробнее...</a></button>
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="contact-info">
+                <div style="display: flex; align-items: center; gap: 20px;">
+                    <img src="https://ae01.alicdn.com/kf/HTB1G5t6PXXXXXbaXVXXq6xXFXXXp/16-4cm-15cm-Body-Building-Fitness-Car-Styling-Car-Sticker-Vinyl-Black-Silver-S3-5385.jpg" 
+                         style="width: 200px; border-radius: 50%;">
+                    <div>
+                        <div>Связь с нами:</div>
+                        <div style="font-size: 25px;">
+                            тел: 8(904)114-63-29 <br>
+                            email: iv.vania825@gmail.com
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: center; gap: 10px; margin-top: 20px;">
+                    <a href="..."><img src="https://cdn-icons-png.flaticon.com/128/1077/1077055.png" style="width: 50px; height: 40px; "></a>
+                    <a href="..."><img src="https://cdn-icons-png.flaticon.com/128/2111/2111828.png" style="width: 50px; height: 40px;"></a>
+                    <a href="..."><img src="https://cdn-icons-png.flaticon.com/128/4701/4701496.png" style="width: 50px; height: 40px;"></a>
+                </div>
+
+            </section>
+
+    </div>
+    <div id="openModal1" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" >~ Индивидуальные тренервки ~</h3>
+                    <a href="#close" title="Close" class="close">×</a>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Индивидуальное занятие
+                            – это процесс, в котором учитываются абсолютно все предпочтения. Каждая тренеровка будет составлена
+                            конкретно под ваш уровень подготовки и направлена на получение максимально быстрого и точного результата.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="openModal2" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">~ Бассейн ~</h3>
+                    <a href="#close" title="Close" class="close">×</a>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Занятия в воде универсальны, так как подходят людям любого возраста и подготовки и почти не имеют противопоказаний.
+                            Тренировки в 25-метровом бассейне <b>BodyTech</b> не только укрепят здоровье, но и поднимут настроение.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="openModal3" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">~ Групповые занятия ~</h3>
+                    <a href="#close" title="Close" class="close">×</a>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Более 50 видов направлений, для любого уровня подготовки.
+                            На групповых тренировках вы получаете обратную связь от
+                            тренера, поддержку одногруппников, массу положительных эмоций и красивое, здоровое тело как результат.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="openModal4" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">~ SPA-Комплекс ~</h3>
+                    <a href="#close" title="Close" class="close">×</a>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Члены <b>BodyTech</b> приходят в любимый клуб не только поработать над своим телом, но и полноценно расслабиться. </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+       
+
+    <script src="js/1.js"></script>
+    <script  src="js/jquery-3.6.1.min.js"></script>
+
+</body>
+</html>

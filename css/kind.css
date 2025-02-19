@@ -1,0 +1,330 @@
+body{
+    background-image: linear-gradient(turquoise,blueviolet);
+}
+.main{
+     background:white;
+     width:1000px ;
+     height: 1500px;
+     margin: 20px auto;
+    border-radius: 15px;
+ }
+.rl1 {
+    width: 180px;
+    float: left;
+    margin:5px;
+}
+.krg{
+    width: 850px;
+    margin:10px auto;
+}
+.krg2{
+    width: 180px;
+    display: inline-block;
+    text-align: center;
+    font-family:"Courier New";
+    margin-right:10px;
+    margin-left: 10px;
+    margin-top: 15px;
+
+}
+
+.menu{
+    margin-top: 30px;
+    width: 490px;
+    height: 60px;
+    float: right ;
+}
+.menu ul li {
+    font-size: 16px;
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+
+}
+.menu ul li a{
+    color: #000;
+    text-decoration: none;
+    font-family:"Courier New";
+
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid teal;
+}
+.menu ul li button{
+    margin-left: 20px;
+    background: #9d4edd;
+    width: 195px;
+    height: 35px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-family: "Courier New";
+    box-shadow: 3px 5px 4px slategrey;
+
+
+}
+.tr{
+    width:800px ;
+    margin: 0px auto;
+}
+body{margin: 0;}
+#yt{
+    padding: 45px;
+}
+form {
+    position: relative;
+    width: 250px;
+    height: 0px;
+    margin: 0 auto;
+}
+.d5 {
+    width: 210px;
+    margin-left: 180px;}
+.d5 input, .d5 button {
+    outline: none;
+    background:  transparent;
+}
+.d5 input {
+    width:250px;
+    height: 42px;
+    padding-left: 15px;
+    border: 1px solid #fdd83582;
+    border-radius: 15px;
+    box-shadow: 5px 3px 5px #7080901f;
+}
+
+.d5 button {
+    border: none;
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.d5 button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: blueviolet;
+}
+.d5 input:focus {
+    border-color: #fdd835;
+}
+.mm{
+    margin:0px 32px;
+    box-shadow: 5px 3px 5px slategrey;
+    border-radius: 15px;
+}
+.bb{
+    width: 800px;
+    height: 120px ;
+    margin:10px 0px 0px 100px;}
+
+.rew{
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 45px;
+    font-size: 15px;
+    margin-top: 0px;
+}
+.rew a:hover{
+    border-bottom: 1px solid teal;
+}
+.rew2{
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 15px;
+    margin-top: 0px;
+
+}
+.rew2 a:hover{
+    border-bottom: 1px solid teal;
+}
+.rew3{
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 110px;
+    font-size: 15px;
+    margin-top: 0px;
+
+}
+.rew3 a:hover{
+    border-bottom: 1px solid teal;
+}
+.rew4{
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 80px;
+    font-size: 15px;
+    margin-top: 0px;
+
+}
+.rew4 a:hover{
+    border-bottom: 1px solid teal;
+}
+.rew5{
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 115px;
+    font-size: 15px;
+    margin-top: 0px;
+
+}
+.rew5 a:hover{
+    border-bottom: 1px solid teal;
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+    font-family: "Courier New";
+}
+.uyt{
+     border: 1px solid #fdd835;
+     width: 900px;
+     height: 120px;
+     border-left-color: transparent;
+     border-right-color: transparent;
+     margin: 30px auto;
+
+ }
+.uyt3{
+    border-top: 1px solid #fdd835;
+    width: 900px;
+    height: 200px;
+
+    margin: 30px auto;
+
+}
+.uyt2{
+    border: 1px solid blueviolet;
+    width: 900px;
+    height: 550px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom: transparent;
+    margin: 30px auto;
+
+}
+* {box-sizing:border-box}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.mySlides {
+    display: none;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+.ee{
+    width: 40px;
+    float: right;
+    margin-right: 50px;
+}
+.hty{
+    text-align: right;
+    margin:5px;
+    font-family:'Courier New';
+}
+.hty a{
+    color:darkviolet;
+}
+.hty a:hover{
+    border-bottom: 1px solid blueviolet;
+}
+.hty2{
+    text-align: left;
+    margin:5px;
+    font-family:'Courier New';
+    color:blueviolet;
+    font-size: 18px;
+}
+.ff{
+    font-family:'Courier New';
+    margin:20px;
+    width: 200px;
+}
+#yr a{
+  color:white;
+    border-bottom: transparent;
+}
+
